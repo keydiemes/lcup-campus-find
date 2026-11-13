@@ -1,0 +1,37 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-heading: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+    --font-body: 'Public Sans', system-ui, -apple-system, sans-serif;
+    --font-code: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-body);
+    color: #20243A;
+    background-color: #E9EDF5;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: var(--font-heading);
+    letter-spacing: -0.015em;
+  }
+
+  .font-mono, code, .tabular-nums {
+    font-family: var(--font-code);
+  }
+}
+
+@media print {
+  body {
+    background: white !important;
+    color: black !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+}

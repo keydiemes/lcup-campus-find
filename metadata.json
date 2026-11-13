@@ -1,0 +1,6 @@
+{
+  "name": "CampusFind - LCUP Lost and Found System",
+  "description": "Digital Lost and Found Management System for La Consolacion University Philippines, featuring student and admin portals, item reporting, ownership verification claims, and return tracking.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
