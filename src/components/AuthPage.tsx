@@ -153,7 +153,7 @@ export const AuthPage: React.FC<AuthPageProps> = ({ defaultMode }) => {
             <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold leading-tight tracking-tight mb-6">
               Lost something?
               <br />
-              Found something?
+               We'll find it!
             </h1>
 
             <p className="text-sm sm:text-base text-blue-100 leading-relaxed max-w-md">
